@@ -24,7 +24,7 @@ export default {
       },
       fontSize: {
         hero: ["clamp(2.5rem, 7vw, 6rem)", { lineHeight: "1.2" }],
-        chapter: ["clamp(1.75rem, 4.5vw, 3.5rem)", { lineHeight: "1.3" }],
+        chapter: ["clamp(1.75rem, 4.5vw, 3rem)", { lineHeight: "1.3" }],
         quote: ["clamp(1.5rem, 3.5vw, 2.5rem)", { lineHeight: "1.5" }],
         subheading: ["clamp(1.125rem, 2vw, 1.5rem)", { lineHeight: "1.6" }],
         body: ["clamp(0.9375rem, 1.2vw, 1.0625rem)", { lineHeight: "1.8" }],
