@@ -92,3 +92,70 @@ export const landscapeContent = {
     english: "You don't need to ask\nwhere the path leads."
   }
 };
+
+export const seasonsContent = {
+  title: {
+    korean: "계절은 가평을 네 번 다시 쓴다",
+    english: "The seasons rewrite Gapyeong four times"
+  },
+  spring: {
+    labelKorean: "봄",
+    labelEnglish: "Spring",
+    textKorean: "벚꽃이 지면\n비로소 봄이 왔다는 걸 안다.",
+    textEnglish: "When the cherry blossoms fall,\nyou finally know spring has come.",
+    image: {
+      name: "season-spring",
+      aspectRatio: "4/5",
+      description: "벚꽃이 흩날리는 가평의 개천가 / Cherry blossoms falling by a stream in Gapyeong",
+      prompt: "A row of cherry blossom trees (벚나무) along a quiet walking path beside a stream in Gapyeong county. The blossoms are at peak bloom — dense clusters of pale pink and white flowers covering every branch. Petals are actively falling, caught mid-air, creating a gentle snowfall effect. The ground and stream surface are dusted with fallen petals. Soft overcast sky — flat, pale gray-white, providing perfectly even diffused light. No people. The path is unpaved, light brown earth. Young green grass is emerging along the stream bank. Shot at eye level with a 50mm lens, medium depth of field. Color palette: soft pastels — pale pink, cream white, light green, gray-white sky. Very slight warm film grain. The atmosphere is quiet and ephemeral. Mood: gentle, bittersweet, the beauty of something about to end. Reference: Japanese sakura photography, Kinfolk Magazine spring editorials. Dimensions: 1200×1500 pixels, 4:5 portrait."
+    } as ImageMetadata
+  },
+  summer: {
+    labelKorean: "여름",
+    labelEnglish: "Summer",
+    textKorean: "매미 소리가 시간을 대신한다.",
+    textEnglish: "Cicadas tell the time instead of clocks.",
+    image: {
+      name: "season-summer",
+      aspectRatio: "16/9",
+      description: "녹음이 우거진 여름날의 가평 산자락 / Dense green forest on a summer day in Gapyeong",
+      prompt: "Dense, lush green mountainside in Gapyeong during peak summer. The entire frame is filled with rich, vibrant foliage — multiple shades of green from emerald to jade to forest green. A thin, distant waterfall is barely visible as a white thread cascading down the mountainside through a gap in the trees. The atmosphere is visibly humid — a warm haze softens the distant portions of the mountain. Bright midday sun creates strong highlights on the canopy with deep shadows beneath. A narrow hiking trail is just barely visible as a gap in the foliage. Shot from a valley viewpoint looking upward at the mountainside with a standard lens (50mm). Rich, saturated color grading: deep greens dominating, warm golden highlights. The air looks thick and warm. Mood: abundant, alive, the fullness of summer, almost overwhelming in its greenness. Reference: Studio Ghibli countryside summer scenes, lush Korean forest photography. Dimensions: 1920×1080 pixels, 16:9 landscape."
+    } as ImageMetadata
+  },
+  autumn: {
+    labelKorean: "가을",
+    labelEnglish: "Autumn",
+    textKorean: "가장 아름다운 계절은\n가장 짧다.",
+    textEnglish: "The most beautiful season\nis always the shortest.",
+    imgA: {
+      name: "season-summer-a",
+      aspectRatio: "4/5",
+      description: "단풍에 둘러싸인 한옥 정자 / Traditional pavilion surrounded by autumn leaves",
+      prompt: "A small traditional Korean pavilion (정자) with dark wooden columns and curved tile roof, surrounded by peak autumn foliage in Gapyeong. Trees in brilliant red, deep orange, and golden yellow frame the pavilion. A few fallen leaves scattered on the stone base. Soft, warm afternoon light creating a golden glow. Shot from a slight distance with a 50mm lens. Warm color grading: rich amber, deep reds, golden yellows. A hint of mist in the background. Mood: warm nostalgia, the beauty of impermanence. Reference: Korean autumn temple photography, Wong Kar-wai warm color palette. Dimensions: 900×1125 pixels, 4:5 portrait."
+    } as ImageMetadata,
+    imgB: {
+      name: "season-summer-b",
+      aspectRatio: "3/4",
+      description: "은행나무 잎이 깔린 시골길 / Country road carpeted with yellow ginkgo leaves",
+      prompt: "A quiet country road in Gapyeong lined with golden ginkgo trees (은행나무). The road is covered in a thick carpet of bright yellow ginkgo leaves. A low stone wall runs along one side. Late afternoon light streams horizontally through the tree trunks, creating long shadows across the yellow carpet. No people, no vehicles. Shot at eye level looking down the road as it recedes into the golden canopy. 35mm lens. Color palette dominated by warm yellows and golds with cool gray shadows. Slight film grain effect. Mood: golden, nostalgic, a perfect moment. Dimensions: 900×1200 pixels, 3:4 portrait."
+    } as ImageMetadata,
+    imgC: {
+      name: "season-summer-c",
+      aspectRatio: "4/5",
+      description: "물 위에 투영된 붉은 단풍 / Red maple leaves reflected on still water",
+      prompt: "Close-up of red maple leaves (단풍) reflected in the still surface of a small pond in Gapyeong. The reflection is almost perfect — the water is very still with only the faintest ripple. Above the water, a branch with vivid red maple leaves extends into the frame. Below, the reflection shows the same leaves surrounded by reflected blue-gray sky. Shot from above the water at a slight angle with a 50mm macro lens. Shallow depth of field. Color palette: vivid reds, cool blue-gray water, dark reflections. Mood: contemplative, the duality of reality and reflection, autumn's intensity. Dimensions: 900×1125 pixels, 4:5 portrait."
+    } as ImageMetadata
+  },
+  winter: {
+    labelKorean: "겨울",
+    labelEnglish: "Winter",
+    textKorean: "눈이 모든 것을 지우면\n남는 건 고요뿐이다.",
+    textEnglish: "When snow erases everything,\nonly silence remains.",
+    image: {
+      name: "season-winter",
+      aspectRatio: "7/5",
+      description: "눈 덮인 언덕 위의 외딴 나무 / Solitary tree on a snow-covered hill",
+      prompt: "A solitary bare deciduous tree standing on a gentle snow-covered hillside in Gapyeong county during winter. Minimalist composition with the tree placed slightly off-center to the right. The sky is overcast, white-gray, blending almost seamlessly with the snowy ground at the horizon — creating an ethereal, boundaryless feel. The tree's dark, intricate branches create a delicate silhouette against the white background. Faint blue-gray shadows in the snow indicate subtle undulations in the terrain. A few tiny footprints (possibly animal tracks) lead away from the tree. Shot from a medium distance with a telephoto lens (85mm equivalent), compressing the space. Almost monochrome color palette: pure whites, pale grays, faint blue shadows, the dark brown-black of the tree. Very clean, very minimal. Mood: solitude, profound silence, stark beauty, the world reduced to its essence. Reference: Korean minimalist photography, Scandinavian winter landscapes, Michael Kenna. Dimensions: 1400×1000 pixels, 7:5 landscape."
+    } as ImageMetadata
+  }
+};

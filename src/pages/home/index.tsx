@@ -3,6 +3,7 @@ import Arrival from "./components/Arrival";
 import Exists from "./components/Exists";
 import PauseQuote from "./components/PauseQuote";
 import Landscape from "./components/Landscape";
+import Seasons from "./components/Seasons";
 import { pause1Content } from "../../data/gapyeong";
 
 export default function HomePage() {
@@ -15,10 +16,12 @@ export default function HomePage() {
         <Exists />
         <PauseQuote id="pause-1" content={pause1Content} />
         <Landscape />
+        <Seasons />
       </div>
     </>
   );
 }
+
 
 
 

@@ -7,7 +7,7 @@ interface ScrollRevealProps {
   className?: string;
   delay?: number;
   duration?: number;
-  direction?: "up" | "down" | "left" | "right" | "none";
+  direction?: "up" | "down" | "left" | "right" | "none" | "fade";
   once?: boolean;
   amount?: number;
 }
@@ -31,6 +31,8 @@ export default function ScrollReveal({
       case "right":
         return fadeRight;
       case "none":
+        return { hidden: {}, visible: {} }; // no-op animation
+      case "fade":
       default:
         return fadeIn;
     }
