@@ -59,3 +59,36 @@ export const pause1Content = {
   korean: "소리 없이 흐르는 것들이\n가장 오래 남는다.",
   english: "The things that flow without sound\nstay the longest."
 };
+
+export const landscapeContent = {
+  title: {
+    korean: "산이 말을 걸어온다",
+    english: "The mountains speak first"
+  },
+  img1: {
+    name: "landscape-mountains",
+    aspectRatio: "2.4/1",
+    description: "청평호가 보이는 가평의 산자락 / Mountain ridges of Gapyeong and Cheongpyeong Lake",
+    prompt: "Panoramic view of Gapyeong's mountain ranges with Cheongpyeong Lake (청평호) visible as a sliver of blue-green water in the valley below. Multiple layers of mountain ridges receding into misty distance — at least four visible layers. Late afternoon golden hour light, warm amber tones illuminating the nearest ridge, transitioning to progressively cooler blue-gray tones on distant ridges. Low-hanging clouds nestled between the second and third ridges. Dense forest of pine and deciduous trees covering every mountainside. Shot from an elevated viewpoint (mountaintop or high overlook) with a wide-angle lens (24mm equivalent). No human structures visible. The atmosphere is humid with a slight haze that adds depth. Color grading: warm foreground, cool background, cinematic contrast. Mood: vast, awe-inspiring, serene, ancient. Reference: Makoto Shinkai background paintings (Your Name, Weathering With You), Korean national park photography. Dimensions: 1920×800 pixels, 2.4:1 ultrawide."
+  } as ImageMetadata,
+  img2: {
+    name: "landscape-river",
+    aspectRatio: "2/3",
+    description: "이끼 낀 바위 사이로 흐르는 계곡물 / Forest stream flowing through mossy rocks",
+    prompt: "Close-up of a rocky mountain stream in Gapyeong. Crystal clear water flowing over smooth gray and brown river stones, some covered with bright green moss. The stream is narrow — perhaps 2 meters wide. Dappled sunlight filtering through an overhead canopy of trees, creating shifting patterns of light on the water surface. Shot from a low angle, camera positioned just above water level, looking slightly upstream. 35mm lens equivalent, shallow depth of field: foreground rocks and water razor-sharp, background foliage rendered as a soft green blur. The water has subtle blue and green reflections. A few fallen autumn leaves caught between rocks. Cool green dominant tones with warm golden highlights where sunlight hits. Slight mist rising from the water. Mood: intimate, meditative, the sound of water made visible. Reference: Japanese nature photobooks. Dimensions: 800×1200 pixels, 2:3 portrait."
+  } as ImageMetadata,
+  img3: {
+    name: "landscape-forest",
+    aspectRatio: "5/7",
+    description: "울창한 잣나무 숲길 / Quiet walking path in dense pine forest",
+    prompt: "A narrow dirt walking trail through a mature pine forest in the mountains near Gapyeong. The path curves gently to the right and disappears behind tall, straight pine trunks. The trees are tall (15+ meters) with bark in shades of gray-brown, forming a natural corridor. The canopy is dense, creating a cathedral-like filtered light effect with visible god rays (shafts of golden sunlight) angling through gaps in the foliage. The forest floor is covered with a thick carpet of fallen pine needles in warm orange-brown tones. A few ferns grow at the edges of the path. Shot at eye level, standing on the path, looking forward with a 35mm lens. Slight natural vignette at the edges. Muted, moody color palette: earthy browns, deep greens, golden light shafts. The overall feel is hushed and still. Mood: mystery, solitude, invitation to walk deeper, sacred. Reference: Japanese forest photography, pilgrimage trail imagery. Dimensions: 1000×1400 pixels, 5:7 portrait."
+  } as ImageMetadata,
+  block2: {
+    korean: "물은 항상\n어디론가 가고 있다.",
+    english: "The water is always\ngoing somewhere."
+  },
+  caption3: {
+    korean: "길은 어디로 가는지\n묻지 않아도 된다.",
+    english: "You don't need to ask\nwhere the path leads."
+  }
+};
