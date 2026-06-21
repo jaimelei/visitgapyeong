@@ -4,7 +4,8 @@ import Exists from "./components/Exists";
 import PauseQuote from "./components/PauseQuote";
 import Landscape from "./components/Landscape";
 import Seasons from "./components/Seasons";
-import { pause1Content } from "../../data/gapyeong";
+import Fragments from "./components/Fragments";
+import { pause1Content, pause2Content } from "../../data/gapyeong";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,8 @@ export default function HomePage() {
         <PauseQuote id="pause-1" content={pause1Content} />
         <Landscape />
         <Seasons />
+        <PauseQuote id="pause-2" content={pause2Content} showDivider={true} />
+        <Fragments />
       </div>
     </>
   );

@@ -159,3 +159,59 @@ export const seasonsContent = {
     } as ImageMetadata
   }
 };
+
+export const pause2Content = {
+  korean: "어디선가 바람이 불어와\n이름 모를 꽃잎을 데려다 놓고\n아무 말 없이 떠난다.\n\n그런 곳이 있다.",
+  english: "From somewhere the wind arrives,\ncarries petals of unnamed flowers,\nsets them down, and leaves\nwithout a word.\n\nSuch a place exists."
+};
+
+export const fragmentsContent = {
+  title: {
+    korean: "기억의 조각들",
+    english: "Fragments"
+  },
+  imgA: {
+    name: "fragment-cafe",
+    aspectRatio: "1/1",
+    description: "차 한 잔의 시간 / The time of one cup of tea",
+    prompt: "Interior of a small, cozy Korean countryside café in Gapyeong. Shot from above a worn wooden table looking down at a steaming ceramic cup of green tea (녹차). The cup is simple, handmade-looking, in a matte earth tone. Beside it, a small plate with a piece of yakgwa (약과, traditional Korean cookie). The table surface is weathered natural wood with visible grain. Warm afternoon sunlight streams in from a window just outside the frame, creating a diagonal beam of light across the table surface. Steam from the tea is visible in the light beam. Shallow depth of field — the tea cup is sharp, the edges of the frame are soft. Color palette: warm browns, amber, cream, soft green of the tea. No people visible, but the scene suggests someone has just sat down. Mood: warmth, solitude, a pause in time, intimacy. Dimensions: 800×800 pixels, 1:1 square."
+  } as ImageMetadata,
+  imgB: {
+    name: "fragment-trail",
+    aspectRatio: "7/10",
+    description: "숲속 길의 오르막 나무 계단 / Wooden steps ascending a forest trail",
+    prompt: "A narrow forest trail with old wooden steps going upward through deciduous trees in Gapyeong. The steps are weathered, slightly mossy, irregular in spacing. Autumn leaves in orange and gold have accumulated on the steps and along the edges. The trail curves slightly to the left and disappears upward into the canopy. Dappled light filters through the partially bare branches above. Shot looking upward along the trail from the bottom of the steps. 35mm lens, moderate depth of field. Color palette: warm earth tones — russet browns, golden oranges, muted greens, gray-brown wood. Mood: journey, invitation, discovery, the reward of climbing. Dimensions: 700×1000 pixels, 7:10 portrait."
+  } as ImageMetadata,
+  imgC: {
+    name: "fragment-bridge",
+    aspectRatio: "10/7",
+    description: "계곡 위의 나무 다리 / Wooden footbridge spanning a clear stream",
+    prompt: "A small, arched wooden footbridge spanning a narrow rocky stream in a rural area of Gapyeong. The bridge has simple wooden railings and weathered planks. The stream below has clear water flowing over rounded stones. Dense green vegetation (ferns, low bushes) grows on both banks. Soft, overcast light providing even illumination with no harsh shadows. Shot from one end of the bridge looking across to the other side, where the path continues into trees. 35mm lens, wide depth of field (everything in focus). Muted color palette: grays of the wood and stone, various greens of vegetation, the clear water. A sense of crossing from one place to another. Mood: transition, quiet beauty, a simple passage. Dimensions: 1000×700 pixels, 10:7 landscape."
+  } as ImageMetadata,
+  imgD: {
+    name: "fragment-market",
+    aspectRatio: "1/1",
+    description: "가평 시골 장터의 신선한 농산물 / Fresh produce at a traditional market in Gapyeong",
+    prompt: "A traditional Korean countryside market stall (시장) in Gapyeong county. An abundant display of fresh local produce arranged on simple wooden tables and in woven baskets. Bright red chili peppers (고추) piled high, deep green cucumbers, yellow-orange pumpkins (호박), white radishes (무), and bunches of green onions. An overhead canvas tarp or awning casts warm, diffused shade with light filtering through. No vendor or customers visible. The arrangement is naturally beautiful but not styled — this is real market abundance. Shot at eye level, straight on, with a 50mm lens. Medium depth of field. Color palette: vivid reds, greens, yellows, and oranges against muted wood and canvas backgrounds. Mood: abundance, authenticity, everyday life, the colors of the earth. Dimensions: 900×900 pixels, 1:1 square."
+  } as ImageMetadata,
+  imgE: {
+    name: "fragment-steam",
+    aspectRatio: "4/5",
+    description: "돌솥에서 피어오르는 김 / Steam rising from hot earthenware pot",
+    prompt: "Close-up of steam rising from a hot stone pot (뚝배기) of Korean stew (된장찌개 or 순두부찌개) at an outdoor table in Gapyeong. The pot is dark brown/black traditional earthenware, sitting on a wooden trivet. The stew is bubbling slightly — visible red chili flakes, white tofu cubes, green onion slices. Abundant steam rises vertically, caught beautifully by warm backlight (late afternoon sun behind the steam). The background is blurred but suggests an outdoor terrace with green foliage. Shot from slightly above and to the side with a macro-style lens, very shallow depth of field. The steam is the hero of the image. Color palette: warm golds, reds, deep browns, green blur in background. Mood: comfort, warmth, sensory richness, home-cooked nourishment. Dimensions: 800×1000 pixels, 4:5 portrait."
+  } as ImageMetadata,
+  captions: {
+    cafe: {
+      korean: "차 한 잔의 시간",
+      english: "The time of one cup of tea"
+    },
+    bridge: {
+      korean: "다리를 건너면 새로운 길이 있다",
+      english: "Cross the bridge, find a new path"
+    },
+    steam: {
+      korean: "따뜻한 것은 항상 가까이에 있다",
+      english: "Warmth is always close by"
+    }
+  }
+};
