@@ -54,3 +54,8 @@ export const existsContent = {
     prompt: "A quiet village street in rural Gapyeong county, South Korea, during late afternoon. No people visible. A narrow paved road with low stone walls on either side. Traditional Korean low-rise houses with dark clay tile roofs (giwa) visible behind the walls. A single mature persimmon tree (감나무) with bright orange persimmons hanging from bare autumn branches stands prominently on the left side. Soft, overcast sky providing even, diffused light with no harsh shadows. A few potted plants near doorways. The road gently curves and disappears. Shot at eye level with a 50mm lens equivalent, shallow depth of field with the persimmon tree sharp and background softly blurred. Color palette: muted earth tones — warm browns, soft grays, dusty greens, the orange of the persimmons as the only vivid color. Slight film grain. Mood: stillness, everyday beauty, timelessness, a place that exists quietly. Reference: Cereal Magazine travel photography, Korean rural lifestyle editorial. Dimensions: 1200x1600 pixels, 3:4 portrait aspect ratio.",
   } as ImageMetadata
 };
+
+export const pause1Content = {
+  korean: "소리 없이 흐르는 것들이\n가장 오래 남는다.",
+  english: "The things that flow without sound\nstay the longest."
+};
