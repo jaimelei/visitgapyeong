@@ -1,4 +1,5 @@
 import ScreenGate from "../../components/layout/ScreenGate";
+import ChapterNav from "../../components/layout/ChapterNav";
 import Arrival from "./components/Arrival";
 import Exists from "./components/Exists";
 import PauseQuote from "./components/PauseQuote";
@@ -7,7 +8,7 @@ import Seasons from "./components/Seasons";
 import Fragments from "./components/Fragments";
 import Letter from "./components/Letter";
 import Ending from "./components/Ending";
-import { pause1Content, pause2Content } from "../../data/gapyeong";
+import { chapters, pause1Content, pause2Content } from "../../data/gapyeong";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <ScreenGate />
 
       <div className="hidden lg:block">
+        <ChapterNav chapters={chapters} />
         <Arrival />
         <Exists />
         <PauseQuote id="pause-1" content={pause1Content} />
