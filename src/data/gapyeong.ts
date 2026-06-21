@@ -215,3 +215,54 @@ export const fragmentsContent = {
     }
   }
 };
+
+export const letterContent = {
+  title: {
+    korean: "가평에서 보내는 편지",
+    english: "A Letter from Gapyeong"
+  },
+  stanzas: [
+    {
+      korean: "당신이 이곳에 온 건\n우연이 아닐지도 모릅니다.",
+      english: "Your coming here\nmay not have been an accident."
+    },
+    {
+      korean: "나는 당신을 부르지 않았습니다.\n광고도, 초대장도 보내지 않았습니다.",
+      english: "I did not call for you.\nI sent no advertisement, no invitation."
+    },
+    {
+      korean: "그저 여기 있었을 뿐입니다.",
+      english: "I was simply here."
+    },
+    {
+      korean: "아침이면 안개가 내려오고,\n저녁이면 산이 붉어지고,\n밤이면 별이 이 작은 마을 위로\n쏟아지는 그런 곳.",
+      english: "A place where mist descends each morning,\nmountains turn red each evening,\nand stars spill over this small village\neach night."
+    },
+    {
+      korean: "나는 화려하지 않습니다.\n빠르지도 않습니다.\n하지만 여기에는\n다른 곳에 없는 것이 있습니다.",
+      english: "I am not glamorous.\nI am not fast.\nBut here, there is something\nthat exists nowhere else."
+    },
+    {
+      korean: "시간이 느려지는 순간.\n아무것도 하지 않아도 되는 오후.\n바람이 대신 말해주는 이야기.",
+      english: "Moments where time slows down.\nAfternoons where nothing needs to be done.\nStories the wind tells on your behalf."
+    },
+    {
+      korean: "당신이 여기서 본 것들 —\n산, 강, 계절, 그리고 고요함 —\n그것들은 늘 여기에 있었습니다.",
+      english: "The things you saw here —\nmountains, rivers, seasons, and silence —\nthey were always here."
+    },
+    {
+      korean: "다시 올 필요는 없습니다.\n하지만 당신이 온다면,\n나는 여전히 여기 있을 것입니다.",
+      english: "You don't need to come back.\nBut if you do,\nI will still be here."
+    }
+  ],
+  signature: {
+    korean: "가평",
+    english: "Gapyeong"
+  }
+};
+
+export const endingContent = {
+  korean: "가평",
+  english: "Gapyeong",
+  coordinates: "37.8315° N, 127.5108° E"
+};

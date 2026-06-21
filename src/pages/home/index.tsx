@@ -5,6 +5,8 @@ import PauseQuote from "./components/PauseQuote";
 import Landscape from "./components/Landscape";
 import Seasons from "./components/Seasons";
 import Fragments from "./components/Fragments";
+import Letter from "./components/Letter";
+import Ending from "./components/Ending";
 import { pause1Content, pause2Content } from "../../data/gapyeong";
 
 export default function HomePage() {
@@ -20,6 +22,8 @@ export default function HomePage() {
         <Seasons />
         <PauseQuote id="pause-2" content={pause2Content} showDivider={true} />
         <Fragments />
+        <Letter />
+        <Ending />
       </div>
     </>
   );
